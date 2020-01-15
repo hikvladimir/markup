@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flat Shoes</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.js"></script>
+</head>
+    <body>
+
+    <header class="header">
+    <div class="container">
+        <div class="top-header header__top">
+            <div class="top-header__right">
+                <a class="top-header__text top-header__text_bold" href="#">eng</a>
+                <a class="top-header__text" href="#">ind</a>
+            </div>
+            <div class="top-header__left">
+
+                <a class="top-header__text top-header__text_bold" href="#">usd</a>
+                <a class="top-header__text" href="#">idr</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-wrap">
+        <div class="container">
+            <div class="middle-header">
+
+                <div class="login middle-header__col-1">
+
+                        <div class="login__text login__text_user">Hello, You can login or
+                            <a class="login__text_white" href="">register</a>
+                        </div>
+
+                        <div class="login__text login__text_phone">
+                            Customer Service : <span class="phone-num">+88 888 888 888</span>
+                        </div>
+
+                        <div class="login__search">
+                            <input type="search" placeholder="search">
+                        </div>
+                    </div>
+
+                <div class="logo middle-header__col-2">
+                        <img src="img/logo-top.svg" alt="">
+                    </div>
+
+                <ul class="sold middle-header__col-3">
+                       <li class="sold__item sold__item_top">
+                           <a class="sold__link sold__link_wishlist " href="#">
+                               <span class="icon icon_wishlist"></span>
+                               WISHLIST: <span>4</span>
+                           </a>
+                           <a class="sold__link sold__link_cart active" href="#">
+                               <span class="icon icon_cart"></span>
+                               SHOPPING CART:
+                               <span class="total-sum total-sum_padding">$ 345.00</span>
+                               <span class="amount">2</span>
+                           </a>
+                       </li>
+                       <li class="sold__item sold__item_middle">
+
+                           <div class="sold__product">
+                               <img class="sold__img" src="img/products/icon-sketch-001.png" alt="">
+                               <h3 class="sold__title">FLAT SHOES</h3>
+                               <span class="sold__price"> $189.00</span>
+                               <span class="delete"></span>
+                           </div>
+
+                           <div class="sold__product">
+
+                               <img class="sold__img" src="img/products/icon-sketch-002.png" alt="">
+                               <h3 class="sold__title">FLAT SHOES</h3>
+                               <span class="sold__price"> $189.00</span>
+                               <span class="delete"></span>
+                           </div>
+
+                       </li>
+                       <li class="sold__item sold__item_btns">
+                           <a class="sold__btn sold__btn_first" href="#">
+                               <span class="plus"></span>
+                               <span class="text">show all products</span>
+                           </a>
+                           <a class="sold__btn sold__btn_second" href="#">
+                               <span class="checkout"></span>
+                               <span class="text">check out</span>
+                           </a>
+                       </li>
+                    </ul>
+
+            </div>
+            <nav class="nav nav_margin">
+                <ul class="nav-list nav_mod">
+
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">JACKETS</a>
+                    </li>
+
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">SWEATERS</a>
+                    </li>
+
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">DRESSES</a>
+                    </li>
+
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">SKIRTS</a>
+                    </li>
+
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">PANTS</a>
+                    </li>
+
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">SHORTS</a>
+                    </li>
+
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">SHOES</a>
+                    </li>
+
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">ACCESSORIES</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+
+</header>
+
+    <main class="main">
+
+        <div class="container-wrap">
+            <div class="container">
+                <div class="shop-window shop-window_padding20px">
+                    <div class="collections shop-window__col shop-window__col_1">
+
+                        <div class="collections__wrap-img">
+                            <img src="img/products/product-001.png" alt="product-001">
+                        </div>
+                        <div class="collections__wrap-block">
+
+                            <b class="collections__month">
+                                MAY<span>Collection</span>
+                            </b>
+                            <a class="collections__link" href="#">
+                                See Products
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="sale shop-window__col shop-window__col_2">
+                        <img class="sale__img" src="img/products/product-002.png" alt="">
+                        <div class="sale__sticker">
+                            <span class="sale__text">sale</span>
+                        </div>
+                    </div>
+
+                    <div class="block-3 shop-window__col shop-window__col_3">
+                        <img class="block-3__img" src="img/products/product-003.png" alt="">
+                    </div>
+
+                    <div class="arrivals shop-window__col shop-window__col_4">
+                        <div class="arrivals__wrap-img">
+                            <img class="arrivals__img" src="img/products/product-004.png" alt="">
+                        </div>
+                        <div class="arrivals__wrap-block">
+                            <b class="arrivals__text">
+                                new<span>arrivals</span>
+                            </b>
+                            <a class="arrivals__link" href="#">
+                                See Products
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="block-5 shop-window__col shop-window__col_5">
+                        <img class="block-5__img" src="img/products/product-005.png" alt="">
+
+                    </div>
+
+                </div>
+
+                <ul class="products products_mod products_padding85">
+                    <li class="title-link products__title">
+                        <div class="title-link__titles">
+                            <a class="title-link__title active" href="">
+                                FEATURED
+                                <span class="arrow"></span>
+                            </a>
+
+                            <a class="title-link__title title-link__title_second" href="">
+                                ARRIVALS
+                                <span class="arrow"></span>
+                            </a>
+                        </div>
+                        <p class="title-link__advantages">“Whoever said money can’t buy happiness simply didn’t know WHER</p>
+                    </li>
+                    <li class="product products__item">
+                        <a class="product__images" href="#">
+
+                            <div class="product__image">
+                                <img src="img/products/products-001.png" alt="">
+                            </div>
+
+                        </a>
+                        <div class="product__link-wrap">
+                            <a class="product__link " href="">
+
+                            </a>
+                        </div>
+                        <div class="product__title">
+                            <span class="text">BLAZER SLIMFITs</span>
+                        </div>
+                        <div class="product__price">
+
+                            <span class="old-price">$329,00</span>
+                            <span class="price">$279,00</span>
+                        </div>
+                        <div class="product__btns-wrap">
+                            <button class="product__cart">
+                                <span class="text">ADD TO CART</span>
+                            </button>
+                            <button class="product__wishlist">
+                                <span class="icon"></span>
+                                <span class="text">ADD TO WISHLIST</span>
+
+                            </button>
+                            <div class="product__frame product__frame_btns"></div>
+                        </div>
+                        <div class="product__frame"></div>
+                    </li>
+                    <li class="product products__item">
+                        <a class="product__images" href="#">
+
+                            <div class="product__image">
+                                <img src="img/products/products-002.png" alt="">
+                            </div>
+
+                        </a>
+                        <div class="product__link-wrap">
+                            <a class="product__link " href="">
+
+                            </a>
+                        </div>
+                        <div class="product__title">
+                            <span class="text">SLIM PANTS</span>
+                        </div>
+                        <div class="product__price">
+
+                            <span class="old-price">$329,00</span>
+                            <span class="price">$279,00</span>
+                        </div>
+                        <div class="product__btns-wrap">
+                            <button class="product__cart">
+                                <span class="text">ADD TO CART</span>
+                            </button>
+                            <button class="product__wishlist">
+                                <span class="icon"></span>
+                                <span class="text">ADD TO WISHLIST</span>
+
+                            </button>
+                            <div class="product__frame product__frame_btns"></div>
+                        </div>
+                        <div class="product__frame"></div>
+                    </li>
+                    <li class="product products__item">
+                        <a class="product__images" href="#">
+
+                            <div class="product__image">
+                                <img src="img/products/products-003.png" alt="">
+                            </div>
+
+                        </a>
+                        <div class="product__link-wrap">
+                            <a class="product__link " href="">
+
+                            </a>
+                        </div>
+                        <div class="product__title">
+                            <span class="text">SWEATSHIRT</span>
+                        </div>
+                        <div class="product__price">
+
+                            <span class="old-price">$329,00</span>
+                            <span class="price">$279,00</span>
+                        </div>
+                        <div class="product__btns-wrap">
+                            <button class="product__cart">
+                                <span class="text">ADD TO CART</span>
+                            </button>
+                            <button class="product__wishlist">
+                                <span class="icon"></span>
+                                <span class="text">ADD TO WISHLIST</span>
+
+                            </button>
+                            <div class="product__frame product__frame_btns"></div>
+                        </div>
+                        <div class="product__frame"></div>
+                    </li>
+                    <li class="product products__item">
+                        <a class="product__images" href="#">
+
+                            <div class="product__image">
+                                <img src="img/products/products-004.png" alt="">
+                            </div>
+
+                        </a>
+                        <div class="product__link-wrap">
+                            <a class="product__link " href="">
+
+                            </a>
+                        </div>
+                        <div class="product__title">
+                            <span class="text">FORMAL BLOUSE</span>
+                        </div>
+                        <div class="product__price">
+
+                            <span class="old-price">$329,00</span>
+                            <span class="price">$279,00</span>
+                        </div>
+                        <div class="product__btns-wrap">
+                            <button class="product__cart">
+                                <span class="text">ADD TO CART</span>
+                            </button>
+                            <button class="product__wishlist">
+                                <span class="icon"></span>
+                                <span class="text">ADD TO WISHLIST</span>
+
+                            </button>
+                            <div class="product__frame product__frame_btns"></div>
+                        </div>
+                        <div class="product__frame"></div>
+                    </li>
+                    <li class="product products__item">
+                        <a class="product__images" href="#">
+
+                            <div class="product__image">
+                                <img src="img/products/products-005.png" alt="">
+                            </div>
+
+                        </a>
+                        <div class="product__link-wrap">
+                            <a class="product__link " href="">
+
+                            </a>
+                        </div>
+                        <div class="product__title">
+                            <span class="text">WOMEN ARMY PANTS</span>
+                        </div>
+                        <div class="product__price">
+
+                            <span class="old-price">$329,00</span>
+                            <span class="price">$279,00</span>
+                        </div>
+                        <div class="product__btns-wrap">
+                            <button class="product__cart">
+                                <span class="text">ADD TO CART</span>
+                            </button>
+                            <button class="product__wishlist">
+                                <span class="icon"></span>
+                                <span class="text">ADD TO WISHLIST</span>
+
+                            </button>
+                            <div class="product__frame product__frame_btns"></div>
+                        </div>
+                        <div class="product__frame"></div>
+                    </li>
+                    <li class="product products__item">
+                        <a class="product__images" href="#">
+
+                            <div class="product__image">
+                                <img src="img/products/products-006.png" alt="">
+                            </div>
+
+                        </a>
+                        <div class="product__link-wrap">
+                            <a class="product__link " href="">
+
+                            </a>
+                        </div>
+                        <div class="product__title">
+                            <span class="text">SUMMER PANTS</span>
+                        </div>
+                        <div class="product__price">
+
+                            <span class="old-price">$329,00</span>
+                            <span class="price">$279,00</span>
+                        </div>
+                        <div class="product__btns-wrap">
+                            <button class="product__cart">
+                                <span class="text">ADD TO CART</span>
+                            </button>
+                            <button class="product__wishlist">
+                                <span class="icon"></span>
+                                <span class="text">ADD TO WISHLIST</span>
+
+                            </button>
+                            <div class="product__frame product__frame_btns"></div>
+                        </div>
+                        <div class="product__frame"></div>
+                    </li>
+                    <li class="product products__item">
+                        <a class="product__images" href="#">
+
+                            <div class="product__image">
+                                <img src="img/products/products-007.png" alt="">
+                            </div>
+
+                        </a>
+                        <div class="product__link-wrap">
+                            <a class="product__link " href="">
+
+                            </a>
+                        </div>
+                        <div class="product__title">
+                            <span class="text">COLLAR CHIFFON</span>
+                        </div>
+                        <div class="product__price">
+
+                            <span class="old-price">$329,00</span>
+                            <span class="price">$279,00</span>
+                        </div>
+                        <div class="product__btns-wrap">
+                            <button class="product__cart">
+                                <span class="text">ADD TO CART</span>
+                            </button>
+                            <button class="product__wishlist">
+                                <span class="icon"></span>
+                                <span class="text">ADD TO WISHLIST</span>
+
+                            </button>
+                            <div class="product__frame product__frame_btns"></div>
+                        </div>
+                        <div class="product__frame"></div>
+                    </li>
+                    <li class="product products__item">
+                        <a class="product__images" href="#">
+
+                            <div class="product__image">
+                                <img src="img/products/products-008.png" alt="">
+                            </div>
+
+                        </a>
+                        <div class="product__link-wrap">
+                            <a class="product__link " href="">
+
+                            </a>
+                        </div>
+                        <div class="product__title">
+                            <span class="text">SLIM JEANS</span>
+                        </div>
+                        <div class="product__price">
+
+                            <span class="old-price">$329,00</span>
+                            <span class="price">$279,00</span>
+                        </div>
+                        <div class="product__btns-wrap">
+                            <button class="product__cart">
+                                <span class="text">ADD TO CART</span>
+                            </button>
+                            <button class="product__wishlist">
+                                <span class="icon"></span>
+                                <span class="text">ADD TO WISHLIST</span>
+
+                            </button>
+                            <div class="product__frame product__frame_btns"></div>
+                        </div>
+                        <div class="product__frame"></div>
+                    </li>
+                    <li class="all-link products__all-products">
+                        <span class="plus"></span>
+                        <a class="all-link__text" href="#">load more picture</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="category category_mod">
+                <div class="category__title">
+                    <b class="text">CATEGORY</b>
+                </div>
+                <ul class="category__list">
+                    <li class="category__item">
+                        <a class="category__link" href="">JACKETS</a>
+                    </li>
+                    <li class="category__item">
+                        <a class="category__link" href="">T-SHIRTS</a>
+                    </li>
+                    <li class="category__item">
+                        <a class="category__link" href="">SKIRTS</a>
+                    </li>
+                    <li class="category__item">
+                        <a class="category__link" href="">PANTS</a>
+                    </li>
+
+                    <li class="category__item">
+                        <a class="category__link" href="">ACCESSORIES</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container-wrap">
+            <div class="container">
+                <div class="latest">
+                    <div class="latest__title">
+                        <b class="text">latest viewed</b>
+                    </div>
+                    <ul class="latest-list latest-list_mod">
+                        <li class="product latest-list__item">
+                            <a class="product__images" href="#">
+                                <div class="product__image product__image_latest">
+                                    <img src="img/products/products-009.png" alt="">
+                                </div>
+                            </a>
+                            <div class="product__link-wrap">
+                                <a class="product__link" href=""></a>
+                            </div>
+                            <div class="product__title product__title_14px">
+                                <span class="text">T-SHIRT BLUE</span>
+                            </div>
+                            <div class="product__price">
+
+                                <span class="old-price">$329,00</span>
+                                <span class="price">$279,00</span>
+                            </div>
+                        </li>
+                        <li class="product latest-list__item">
+                            <a class="product__images" href="#">
+                                <div class="product__image product__image_latest">
+                                    <img src="img/products/products-010.png" alt="">
+                                </div>
+                            </a>
+                            <div class="product__link-wrap">
+                                <a class="product__link" href=""></a>
+                            </div>
+                            <div class="product__title product__title_14px">
+                                <span class="text">BASIC T-SHIRT</span>
+                            </div>
+                            <div class="product__price">
+
+                                <span class="old-price">$329,00</span>
+                                <span class="price">$279,00</span>
+                            </div>
+                        </li>
+                        <li class="product latest-list__item">
+                            <a class="product__images" href="#">
+                                <div class="product__image product__image_latest">
+                                    <img src="img/products/products-011.png" alt="">
+                                </div>
+                            </a>
+                            <div class="product__link-wrap">
+                                <a class="product__link" href=""></a>
+                            </div>
+                            <div class="product__title product__title_14px">
+                                <span class="text">COLLAR VERTICAL STRIPES</span>
+                            </div>
+                            <div class="product__price">
+
+                                <span class="old-price">$329,00</span>
+                                <span class="price">$279,00</span>
+                            </div>
+                        </li>
+                        <li class="product latest-list__item">
+                            <a class="product__images" href="#">
+                                <div class="product__image product__image_latest">
+                                    <img src="img/products/products-012.png" alt="">
+                                </div>
+                            </a>
+                            <div class="product__link-wrap">
+                                <a class="product__link" href=""></a>
+                            </div>
+                            <div class="product__title product__title_14px">
+                                <span class="text">COLOR SHIRT</span>
+                            </div>
+                            <div class="product__price">
+
+                                <span class="old-price">$329,00</span>
+                                <span class="price">$279,00</span>
+                            </div>
+                        </li>
+                        <li class="product latest-list__item">
+                            <a class="product__images" href="#">
+                                <div class="product__image product__image_latest">
+                                    <img src="img/products/products-013.png" alt="">
+                                </div>
+                            </a>
+                            <div class="product__link-wrap">
+                                <a class="product__link" href=""></a>
+                            </div>
+                            <div class="product__title product__title_14px">
+                                <span class="text">VERY ELEGANT SHIRT</span>
+                            </div>
+                            <div class="product__price">
+
+                                <span class="old-price">$329,00</span>
+                                <span class="price">$279,00</span>
+                            </div>
+                        </li>
+                        <li class="product latest-list__item">
+                            <a class="product__images" href="#">
+                                <div class="product__image product__image_latest">
+                                    <img src="img/products/products-014.png" alt="">
+                                </div>
+                            </a>
+                            <div class="product__link-wrap">
+                                <a class="product__link" href=""></a>
+                            </div>
+                            <div class="product__title product__title_14px">
+                                <span class="text">VERY ELEGANT SHIRT</span>
+                            </div>
+                            <div class="product__price">
+
+                                <span class="old-price">$329,00</span>
+                                <span class="price">$279,00</span>
+                            </div>
+                        </li>
+                        <li class="product latest-list__item">
+                            <a class="product__images" href="#">
+                                <div class="product__image product__image_latest">
+                                    <img src="img/products/products-015.png" alt="">
+                                </div>
+                            </a>
+                            <div class="product__link-wrap">
+                                <a class="product__link" href=""></a>
+                            </div>
+                            <div class="product__title product__title_14px">
+                                <span class="text">VERY ELEGANT SHIRT</span>
+                            </div>
+                            <div class="product__price">
+
+                                <span class="old-price">$329,00</span>
+                                <span class="price">$279,00</span>
+                            </div>
+                        </li>
+                        <li class="product latest-list__item">
+                            <a class="product__images" href="#">
+                                <div class="product__image product__image_latest">
+                                    <img src="img/products/products-016.png" alt="">
+                                </div>
+                            </a>
+                            <div class="product__link-wrap">
+                                <a class="product__link" href=""></a>
+                            </div>
+                            <div class="product__title product__title_14px">
+                                <span class="text">VERY ELEGANT SHIRT</span>
+                            </div>
+                            <div class="product__price">
+
+                                <span class="old-price">$329,00</span>
+                                <span class="price">$279,00</span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="bottom-logo bottom-logo_mod">
+                    <div class="bottom-logo__wrap">
+                        <img  src="img/bottom-logo.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container-wrap">
+
+            <div class="container">
+                <ul class="footer-cols footer-cols_mod">
+
+                    <li class="footer-cols__item">
+                        <div class="footer-cols__title">
+                            <b class="text">connect with us</b>
+                        </div>
+                        <div class="footer-cols__col-1-title">
+                            <b class="text">DAVELYNINC - ECOMMERCE</b>
+                        </div>
+                        <ul class="contact footer-cols__contact">
+
+                           <li class="contact__item">Kebon jeruk, Jakarta, ID</li>
+                           <li class="contact__item">+88  888 888 88</li>
+                           <li class="contact__item">fashionholic@davelyn.com</li>
+                        </ul>
+                        <ul class="social footer-cols__social">
+                            <li class="social__item">
+                                <a class="social__link social__link_facebook" href=""></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link social__link_twitter" href=""></a>
+                            </li>
+
+                            <li class="social__item">
+                                <a class="social__link social__link_dribbble" href=""></a>
+                            </li>
+                                <li class="social__item">
+                                <a class="social__link social__link_google" href=""></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-cols__item">
+                        <div class="footer-cols__title">
+                            <b class="text">holidays sales</b>
+                        </div>
+                        <ul class="thumbnails-list footer-cols__list">
+                            <li class="thumbnails-list__item">
+
+                                <a class="thumbnails-list__link" href="">
+
+                                    <img class="thumbnails-list__img" src="img/products/icon-sketch-003.png" alt="">
+                                </a>
+                                <a class="thumbnails-list__title">CHANEL - FASHION BAG</a>
+                                    <span class="thumbnails-list__price">$189.00</span>
+
+                            </li>
+                            <li class="thumbnails-list__item">
+                                <a class="thumbnails-list__link" href="">
+                                    <img class="thumbnails-list__img" src="img/products/icon-sketch-004.png" alt="">
+                                </a>
+                                    <a class="thumbnails-list__title">GUCCI - FASHION BAG</a>
+                                <span class="thumbnails-list__price">$189.00</span>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-cols__item">
+                        <div class="footer-cols__title">
+                            <b class="text">NEW ARRIVALS</b>
+                        </div>
+                        <ul class="thumbnails-list footer-cols__list">
+                            <li class="thumbnails-list__item">
+                                <a class="thumbnails-list__link" href="">
+                                    <img class="thumbnails-list__img" src="img/products/icon-sketch-003.png" alt="">
+                                </a>
+                                <a class="thumbnails-list__title">CALVIN KLEIN - LOW  SLIM JEANS</a>
+                                <span class="thumbnails-list__price-through-line">$220</span>
+                                <span class="thumbnails-list__price">$189.00</span>
+
+                            </li>
+                            <li class="thumbnails-list__item">
+                                <a class="thumbnails-list__link" href="">
+                                    <img class="thumbnails-list__img" src="img/products/icon-sketch-004.png" alt="">
+                                </a>
+                                <a class="thumbnails-list__title">GUCCI - FASHION BAG</a>
+                                <span class="thumbnails-list__price-through-line">$220</span>
+                                <span class="thumbnails-list__price">$189.00</span>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-cols__item">
+                        <div class="footer-cols__title">
+                            <b class="text">OUR SUPPORT</b>
+                        </div>
+                        <ul class="right-col">
+                            <li class="right-col__item">
+                                <a class="right-col__link" href="">- Terms & Conditions</a>
+                            </li>
+
+                            <li class="right-col__item">
+                                <a class="right-col__link" href="">- Delivery</a>
+                            </li>
+
+                            <li class="right-col__item">
+                                <a class="right-col__link" href="">- Secure Payment</a>
+                            </li>
+                            <li class="right-col__item">
+                                <a class="right-col__link" href="">- Refunds</a>
+                            </li>
+                            <li class="right-col__item">
+                                <a class="right-col__link" href="">- Track Order</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="payment">
+                <div class="payment__item payment__item_paypal"></div>
+                <div class="payment__item payment__item_visa"></div>
+                <div class="payment__item payment__item_mastercard"></div>
+                <div class="payment__item payment__item_discover"></div>
+                <div class="payment__item payment__item_skrill"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!--<script src="js/slick.js"></script>-->
+    <script src="js/custom.js"></script>
+</body>
+</html>
